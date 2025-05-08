@@ -3,6 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 // include('../views/layout/header.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
