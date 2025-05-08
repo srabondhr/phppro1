@@ -1,0 +1,14 @@
+{
+    "name": "rolepro/rbac-system",
+    "description": "Role-Based Access Control System built in PHP for rolepro",
+    "type": "project",
+    "require": {
+      "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "Rolepro\\": "controllers/"
+      }
+    }
+  }
+  
